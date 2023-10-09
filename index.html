@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ha.css"/>
+    <link rel="shortcut icon" href="extra\Capture.PNG">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Nice Admin</title>
+</head>
+
+<body>
+    
+    <nav id="ah">
+        <button style="background-color: #F6F9FF;" onclick="nav_hidden()"> <i class="fa-solid fa-xmark fa-xl"></i> </button>
+        <div> <img src="extra\nav 1.png"/> <p> dashboard </p> </div>
+        <div> <img src="extra\nav 2.png"/> <p> componets </p> </div>
+        <div> <img src="extra\nav 3.png"/> <p> forms </p> </div>
+        <div style="margin-left: 25px;"> <img src="extra\nav 4.png"/> <p> tables </p> </div>
+        <div style="margin-left: 25px;"> <img src="extra\nav 5.png"/> <p> charts </p> </div>
+        <div style="margin-left: 22px;"> <img src="extra\nav 6.png"/> <p> icons </p> </div>
+        <div> <img src="extra\nav 7.png"/> <p> profile </p> </div>
+        <div style="margin-left: 23px;"> <img src="extra\nav 8.png"/> <p> F.A.Q </p> </div>
+        <div style="margin-left: 18px;"> <img src="extra\nav 9.png"/> <p> contact </p> </div>
+        <div> <img src="extra\nav 10.png"/> <p> register </p> </div>
+        <div> <img src="extra\nav 11.png"/> <p> login </p> </div>
+        <div style="margin-left: 25px;"> <img src="extra\nav 12.png"/> <p> erorr 404</p> </div>
+        <div> <img src="extra\nav 13.png"/> <p> blank </p> </div>
+    </nav>
+    
+    <header>
+        <div class="partent">
+        <a class="logo_pc" href="index.html"> <h2>nice admin</h2> </a>    
+        <div  class="half1">    
+        <a class="logo" href="index.html"><img src="extra\Capture.PNG"/></a>
+        <button style="background-color: white; border: none;" onclick="nav_show()" type="submit"> <i style="height: 13px;" class="fa-solid fa-bars fa-2xl"></i> </button>
+        <form class="search"> <input placeholder="Search"/> </form> 
+        </div>
+        <div class="header_icons">
+        <i class="fa-solid fa-magnifying-glass fa-xl" style="color: #2e6cd6;"></i>
+        <i class="fa-regular fa-bell fa-xl" style="color: #2e6cd6;"></i>
+        <i class="fa-regular fa-message fa-xl" style="color: #2e6cd6;"></i>
+        </div>
+        <div class="header_photo"></div>
+        </div>
+    </header>
+
+    <main>
+        <h2 style="color: rgba(0, 0, 0, 0.658);"> Dashboard </h2>
+        <p><a style="text-decoration: none; color: #889ABD;" href="index.html"> Home </a> / Dashboard 
+    </main>
+
+    <article  onclick="nav_hidden()">
+        <div class="dashboard_mob">
+            <div class="dashboard">
+                <div class="sales">
+                    <h3> <span style="color:rgb(2, 2, 100);"> Sales </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | Today</span> <span class="point"> ... </span></h3>
+                    <div> <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #4e7cca;"></i> <p class="aa"> <span class="v1">145</span> <br/> <span class="v2"> 12% </span>  <span class="v3"> increase <span></span> </p> </div>
+            </div>
+        </div>
+        
+        <div class="dashboard">
+            <div class="sales">
+                <h3> <span style="color:rgb(2, 2, 100);"> Revenue </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | This Month</span> <span class="point"> ... </span></h3>
+                <div> <i class="fa-solid fa-dollar-sign fa-2xl" style="color: #08d41f; height: 50px;"></i> <p class="aa"> <span class="v1" style="position: relative; left: 22px;"> $3,264 </span> <br/> <span class="v2"> 8% </span>  <span class="v3"> increase <span></span> </p> </div>
+            </div>
+        </div>
+        
+        <div class="dashboard">
+            <div class="sales">
+                <h3> <span style="color:rgb(2, 2, 100);"> Customers </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | This year </span> <span class="point"> ... </span></h3>
+                <div> <svg width="40" height="40" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#f46d25" d="M10.5 14.49v.5h.5v-.5h-.5Zm-10 0H0v.5h.5v-.5Zm14 .01v.5h.5v-.5h-.5ZM8 3.498a2.499 2.499 0 0 1-2.5 2.498v1C7.433 6.996 9 5.43 9 3.498H8ZM5.5 5.996A2.499 2.499 0 0 1 3 3.498H2a3.499 3.499 0 0 0 3.5 3.498v-1ZM3 3.498A2.499 2.499 0 0 1 5.5 1V0A3.499 3.499 0 0 0 2 3.498h1ZM5.5 1A2.5 2.5 0 0 1 8 3.498h1A3.499 3.499 0 0 0 5.5 0v1Zm5 12.99H.5v1h10v-1Zm-9.5.5v-1.995H0v1.995h1Zm2.5-4.496h4v-1h-4v1Zm6.5 2.5v1.996h1v-1.996h-1Zm-2.5-2.5a2.5 2.5 0 0 1 2.5 2.5h1a3.5 3.5 0 0 0-3.5-3.5v1Zm-6.5 2.5a2.5 2.5 0 0 1 2.5-2.5v-1a3.5 3.5 0 0 0-3.5 3.5h1ZM14 13v1.5h1V13h-1Zm.5 1H12v1h2.5v-1ZM12 11a2 2 0 0 1 2 2h1a3 3 0 0 0-3-3v1Zm-.5-3A1.5 1.5 0 0 1 10 6.5H9A2.5 2.5 0 0 0 11.5 9V8ZM13 6.5A1.5 1.5 0 0 1 11.5 8v1A2.5 2.5 0 0 0 14 6.5h-1ZM11.5 5A1.5 1.5 0 0 1 13 6.5h1A2.5 2.5 0 0 0 11.5 4v1Zm0-1A2.5 2.5 0 0 0 9 6.5h1A1.5 1.5 0 0 1 11.5 5V4Z"/>
+                </svg> <p class="aa"> <span class="v1" style="position: relative; left: 10px;">1244</span> <br/> <span class="v2" style="color: rgb(209, 11, 11);"> 12% </span>  <span class="v3"> decrease <span></span> </p> </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="d2">
+            <div class=" dashboard_tab">
+                <div class="sales">
+                    <h3> <span style="color:rgb(2, 2, 100);"> Sales </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | Today</span> <span class="point"> ... </span></h3>
+                    <div> <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #4e7cca;"></i> <p class="aa"> <span class="v1">145</span> <br/> <span class="v2"> 12% </span>  <span class="v3"> increase <span></span> </p> </div>
+                </div>
+            </div>
+    
+            <div class=" dashboard_tab">
+                <div class="sales">
+                    <h3> <span style="color:rgb(2, 2, 100);"> Revenue </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | This Month</span> <span class="point"> ... </span></h3>
+                    <div> <i class="fa-solid fa-dollar-sign fa-2xl" style="color: #08d41f; height: 50px;"></i> <p class="aa"> <span class="v1" style="position: relative; left: 22px;"> $3,264 </span> <br/> <span class="v2"> 8% </span>  <span class="v3"> increase <span></span> </p> </div>
+                </div>
+            </div>
+    
+        </div>
+
+        <div class=" dashboard_tab3">
+        <div class="sales_tab">
+                <h3> <span style="color:rgb(2, 2, 100);"> Customers </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | This year </span> <span class="point"> ... </span></h3>
+                <div> <svg width="40" height="40" viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#f46d25" d="M10.5 14.49v.5h.5v-.5h-.5Zm-10 0H0v.5h.5v-.5Zm14 .01v.5h.5v-.5h-.5ZM8 3.498a2.499 2.499 0 0 1-2.5 2.498v1C7.433 6.996 9 5.43 9 3.498H8ZM5.5 5.996A2.499 2.499 0 0 1 3 3.498H2a3.499 3.499 0 0 0 3.5 3.498v-1ZM3 3.498A2.499 2.499 0 0 1 5.5 1V0A3.499 3.499 0 0 0 2 3.498h1ZM5.5 1A2.5 2.5 0 0 1 8 3.498h1A3.499 3.499 0 0 0 5.5 0v1Zm5 12.99H.5v1h10v-1Zm-9.5.5v-1.995H0v1.995h1Zm2.5-4.496h4v-1h-4v1Zm6.5 2.5v1.996h1v-1.996h-1Zm-2.5-2.5a2.5 2.5 0 0 1 2.5 2.5h1a3.5 3.5 0 0 0-3.5-3.5v1Zm-6.5 2.5a2.5 2.5 0 0 1 2.5-2.5v-1a3.5 3.5 0 0 0-3.5 3.5h1ZM14 13v1.5h1V13h-1Zm.5 1H12v1h2.5v-1ZM12 11a2 2 0 0 1 2 2h1a3 3 0 0 0-3-3v1Zm-.5-3A1.5 1.5 0 0 1 10 6.5H9A2.5 2.5 0 0 0 11.5 9V8ZM13 6.5A1.5 1.5 0 0 1 11.5 8v1A2.5 2.5 0 0 0 14 6.5h-1ZM11.5 5A1.5 1.5 0 0 1 13 6.5h1A2.5 2.5 0 0 0 11.5 4v1Zm0-1A2.5 2.5 0 0 0 9 6.5h1A1.5 1.5 0 0 1 11.5 5V4Z"/>
+                </svg> <p class="aa"> <span class="v1" style="position: relative; left: 10px;">1244</span> <br/> <span class="v2" style="color: rgb(209, 11, 11);"> 12% </span>  <span class="v3"> decrease <span></span> </p> </div>
+            </div>
+        </div>
+       
+        <div class="reports">
+            <h3> <span style="color:rgb(2, 2, 100);">   Reports </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> / Today </span> <span class="point"> ... </span></h3>
+            <div>
+            <p> 100 <span class="a"></span> </p>
+            <p> 80 <span class="b"></span> </p>
+            <p> 60 <span class="c"></span> </p>
+            <p> 40 <span class="d"></span> </p>
+            <p> <span class="e"></span> </p>
+            <p> 20 <span class="f"></span> </p>
+            <p> <span class="g"></span> </p>
+            <p> 0 <span class="h"></span> </p>
+            </div>
+            <p class="time"> 01:27:16   01:27:17 </p>
+            <p class="inf"> <span class="blue"></span>Sales <span class="green"></span>Revenue <span class="orange"></span>Customers </p>
+        </div>
+        
+        <div class="r_sales">
+            <h3> <span style="color:rgb(2, 2, 100);">   Recent Sales </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | Today </span> <span class="point"> ... </span></h3>
+            <div>
+            <form>
+                <select> <option> 5</option> <option> 10</option> <option> 15</option> <option> 20</option> <option> 25</option> </select> <p> enteries per page </p>
+            </form>
+            <form>    
+            <br/> <input placeholder="Search..."/>
+            </form>
+            </div>
+            <table>
+                <tr><th>#</th> <th></th> <th>customers</th> <th></th> <th>product</th> <th></th> <th>price</th> <th>status</th></tr>
+                <tr><td style="color: blue;">#2147</td> <td>Brandon jacob</td> <td style="color: blue;">at praesentium minu</td> <td>$64</td> <td style= "background-color: green; color: white; font-size: 14px; height: 20px; border-radius: 15%;"> Apporved</td></tr>
+                <tr><td style="color: blue;">#2147</td> <td>Brandon jacob</td> <td style="color: blue;">at praesentium minu</td> <td>$64</td> <td style= "background-color: rgb(255, 217, 0); color: white; font-size: 14px; height: 20px; border-radius: 15%;"> pending</td></tr>
+                <tr><td style="color: blue;">#2147</td> <td>Brandon jacob</td> <td style="color: blue;">at praesentium minu</td> <td>$64</td> <td style= "background-color: green; color: white; font-size: 14px; height: 20px; border-radius: 15%;"> Apporved</td></tr>
+                <tr><td style="color: blue;">#2147</td> <td>Brandon jacob</td> <td style="color: blue;">at praesentium minu</td> <td>$64</td> <td style= "background-color: red; color: white; font-size: 14px; height: 20px; border-radius: 15%;"> Rejected</td></tr>
+                <tr><td style="color: blue;">#2147</td> <td>Brandon jacob</td> <td style="color: blue;">at praesentium minu</td> <td>$64</td> <td style= "background-color: green; color: white; font-size: 14px; height: 20px; border-radius: 15%;"> Apporved</td></tr>
+            </table> <br/> <hr>
+            <p> Showing 1 to 5 of 5 entries </p>
+        </div>
+        
+        <div class="t_selling">
+            <h3> <span style="color:rgb(2, 2, 100);">   top selling  </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | Today </span> <span class="point"> ... </span></h3>
+            <table>
+                <tr><th>preview</th>  <th>product</th> <th></th>  <th>prics</th>  <th>sold</th> <th>Revenue</th></tr>
+                <tr><td><i class="fa-solid fa-dollar-sign fa-2xl" style="color: #08d41f; height: 50px;"></i></td> <td>Lorem ipsum dolor sit.</td> <td style="color: blue;"> $45</td> <td>264</td> <td>$5,324</td></tr>
+                <tr><td><i class="fa-solid fa-dollar-sign fa-2xl" style="color: #08d41f; height: 50px;"></i></td> <td>Lorem ipsum dolor sit.</td> <td style="color: blue;"> $45</td> <td>264</td> <td>$5,324</td></tr>
+                <tr><td><i class="fa-solid fa-dollar-sign fa-2xl" style="color: #08d41f; height: 50px;"></i></td> <td>Lorem ipsum dolor sit.</td> <td style="color: blue;"> $45</td> <td>264</td> <td>$5,324</td></tr>
+                <tr><td><i class="fa-solid fa-dollar-sign fa-2xl" style="color: #08d41f; height: 50px;"></i></td> <td>Lorem ipsum dolor sit.</td> <td style="color: blue;"> $45</td> <td>264</td> <td>$5,324</td></tr>
+                <tr><td><i class="fa-solid fa-dollar-sign fa-2xl" style="color: #08d41f; height: 50px;"></i></td> <td>Lorem ipsum dolor sit.</td> <td style="color: blue;"> $45</td> <td>264</td> <td>$5,324</td></tr>
+            </table> <hr>
+        </div>
+
+        <div class="r_activity">
+            <h3> <span style="color:rgb(2, 2, 100);">   recent activity  </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | Today </span> <span class="point"> ... </span></h3>
+            <div> <p>32 min</p>  <span class="s1"></span> <p>Lorem ipsum dolor sit amet consectetur.</p> </div>
+            <div class="space"></div>
+            <div> <p style="width: 42px;">56 min</p> <span class="s2"></span> <p>Lorem ipsum dolor sit.</p> </div>
+            <div class="space"></div>
+            <div> <p style="width: 42px;">2 hrs</p> <span class="s3"></span> <p>Lorem ipsum dolor sit.</p> </div>
+            <div class="space"></div>
+            <div> <p style="width: 42px;">1 day</p> <span class="s4"></span> <p>Lorem ipsum dolor sit amet consectetur.</p> </div>
+            <div class="space"></div>
+            <div> <p style="width: 42px;">2 day</p> <span class="s5"></span> <p>Lorem ipsum dolor sit amet.</p> </div>
+            <div class="space"></div>
+            <div> <p style="width: 42px;">4 weeks</p> <span class="s6"></span> <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> </div>
+        </div>
+        
+        <div class="b_report">
+            <h3> <span style="color:rgb(2, 2, 100);">   budget report  </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | this month </span> <span class="point"> ... </span></h3>
+            <div> <span class="sp1"></span> <p>allocated budget</p> <span class="sp2"></span> <p>actual spending</p> </div>
+            <div><img src="extra\shape 1.png"/></div>
+        </div> 
+
+        <div class="w_traffic">
+            <h3> <span style="color:rgb(2, 2, 100);">   website traffic  </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | today </span> <span class="point"> ... </span></h3> <br/>
+            <div class="aa"> <span class="spa1"></span> <p>search engine</p> <span class="spa2"></span> <p>direct</p> <span class="spa3"></span> <p>email</p></div>
+            <div class="ab"> <span class="spa4"></span> <p>union ads</p> <span class="spa5"></span> <p>video ads</p> </div>
+            <div class="marge">
+                <div> <span class="spa1"></span> <p>search engine</p> <span class="spa2"></span> <p>direct</p> <span class="spa3"></span> <p>email</p></div>
+                <div> <span class="spa4"></span> <p>union ads</p> <span class="spa5"></span> <p>video ads</p> </div>
+            </div>
+            <div class="w_shape">
+                <div class="shape_background"></div>
+                <div class="part-1"><div class="shape_child"></div></div>
+                <div class="part-2"><div class="shape_child"></div></div>
+                <div class="part-3"><div class="shape_child"></div></div>
+                <div class="part-4"><div class="shape_child"></div></div>
+                <div class="part-5"><div class="shape_child"></div></div>
+                <div class="mid"><div class="mid_child"></div></div>
+            </div>
+        </div> 
+        
+        <div class="n_u">
+            <h3> <span style="color:rgb(2, 2, 100);">   news & updates  </span>  <span style="color: #889abda4; font-weight: 100; font-size: 16px;"> | today </span> <span class="point"> ... </span></h3>
+           <div><img src="extra\shape 3_tab.png"/></div>
+        </div> <br/> <br/>     
+    </article>
+
+    <footer>
+        <div class="phone"> <p>© Copyright <span> NiceAdmin </span>. All Rights Reserved Designed by BootstrapMade</p> </div>
+        <div class="tab"> <p>© Copyright <span> NiceAdmin </span>. All Rights Reserved <br/> <br/> Designed by BootstrapMade</p> </div>
+    </footer>
+    
+    <script src="ah.js"></script>
+</body>
+</html>
